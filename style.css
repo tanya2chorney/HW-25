@@ -1,0 +1,25 @@
+.list-of-figures {
+  list-style: none;
+}
+.figure {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+.figure:nth-child(1) {
+  background-color: rgb(211, 117, 117);
+  z-index: 1;
+}
+.figure:nth-child(2) {
+  background-color: rgb(125, 114, 220);
+  z-index: 2;
+  top: 105px;
+  left: 138px;
+
+}
+.figure:nth-child(3) {
+  background-color: rgb(142, 217, 134);
+  z-index: 1;
+  top: 195px;
+  left: 218px;
+}
